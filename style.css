@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: "raleway";
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(26, 24, 24);
+}
+#q{
+    height: 60px;
+    width: 15%;
+    position: relative;
+    background-color: rgb(26, 24, 24);
+}
+#q img{
+    height: 110%;
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+#w{
+    height: 60px;
+    width: 60%;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 19px;
+    background-color: rgb(26, 24, 24);
+
+}
+#w a{
+    text-decoration: none;
+    color: rgb(158, 154, 154);
+}
+#w a:hover{
+    color: white;
+}
+#e{
+    height: 60px;
+    width: 25%;
+    position: absolute;
+    left: 75%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 19px;
+    text-decoration: none;
+    background-color: rgb(26, 24, 24);
+}
+#e a{
+    text-decoration: none;
+    color: rgb(158, 154, 154);
+}
+#e a:hover{
+    color: white;
+}
+#ta{
+    height: 601px;
+    width: 100%;
+}
+#ta img{
+    height: 100%;
+    width: 100%;
+}
+#ta p{
+    font-size: 40px;
+    color: aquamarine;
+    position: absolute;
+    top: 10%;
+    left: 31%;
+    font-family: "sinta magenta demo";
+}
+#b{
+    height: 5%;
+    width: 20%;
+    border: 10%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    bottom: 10%;
+    position: absolute;
+    left: 30%;
+    background-color: transparent;
+    font-family: "antipasto pro";
+    font-size: 15px;
+    font-weight: 100%;
+}
+#k{
+    height: 5%;
+    width: 20%;
+    border: 10%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    background-color: transparent;
+    font-family: "antipasto pro";
+    font-size: 15px;
+    font-weight: 100%;
+}
+#ta button:hover{
+    background: rgb(142, 89, 192);
+    color: rgb(203, 195, 211);
+    cursor: pointer;
+}
+#z{
+    height: 8%;
+    width: 4%;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0%;
+    left: 49%;
+    font-size: 30px;
+}
+#z i:hover{
+    color: white;
+    cursor: pointer;
+}
